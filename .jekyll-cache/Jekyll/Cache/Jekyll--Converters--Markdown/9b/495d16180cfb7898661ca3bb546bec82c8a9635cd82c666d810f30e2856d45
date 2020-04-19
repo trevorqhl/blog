@@ -1,0 +1,33 @@
+I" <p><img src="/assets/images/salt.png" alt="Salt" /></p>
+
+<h2 id="state">State</h2>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#run state without executing 
+salt-call -l debug state.show_sls rhcs.rs.config
+salt-call state.show_sls openssh.config
+
+#execute state
+salt-call state.sls openssh.config
+
+salt-call state.show_highstate
+salt-call state.highstate
+
+</code></pre></div></div>
+
+<h2 id="grains">Grains</h2>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Get grains
+salt-call grains.items
+salt-call grains.get roles
+
+# append roles
+salt-call grains.append roles saltmaster
+</code></pre></div></div>
+
+<h2 id="pillar">Pillar</h2>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Get pillar
+salt-call grains.items
+salt-call pillar.get salt
+salt-call pillar.get salt:repo:private_ssh_key
+
+</code></pre></div></div>
+:ET

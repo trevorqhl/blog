@@ -1,0 +1,39 @@
+I"Ë<p><img src="/assets/images/powershell.jpeg" alt="PowerSheel" /></p>
+
+<h1 id="windows-commands">Windows commands</h1>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="c1"># check a list of your AD groups</span>
+<span class="n">whoami</span> <span class="sr">/groups &gt; groups.txt
+groups.txt</span></code></pre></figure>
+
+<h1 id="ad-powershell-module-on-windows-10">AD PowerShell module on Windows 10</h1>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="no">Import</span><span class="o">-</span><span class="no">Module</span> <span class="no">ActiveDirectory</span>
+<span class="no">Get</span><span class="o">-</span><span class="no">ADForest</span>
+<span class="no">Get</span><span class="o">-</span><span class="no">ADDomain</span> <span class="o">-</span><span class="no">Server</span> <span class="n">tdbfg</span><span class="p">.</span><span class="nf">com</span>
+<span class="no">Get</span><span class="o">-</span><span class="no">ADDomainController</span> <span class="o">-</span><span class="no">Server</span> <span class="n">tdbfg</span><span class="p">.</span><span class="nf">com</span>
+
+<span class="no">Get</span><span class="o">-</span><span class="no">ADUser</span> <span class="o">-</span><span class="no">LDAPFilter</span> <span class="s2">"(SamAccountName=trevorl)"</span>
+<span class="no">Get</span><span class="o">-</span><span class="no">ADUser</span> <span class="o">-</span><span class="no">LDAPFilter</span> <span class="s2">"(SamAccountName=trevorl)"</span> <span class="o">-</span><span class="no">Properties</span> <span class="n">mail</span><span class="p">,</span> <span class="n">memberOf</span>
+<span class="no">Get</span><span class="o">-</span><span class="no">ADUser</span> <span class="o">-</span><span class="no">LDAPFilter</span> <span class="s2">"(SamAccountName=trevorl)"</span> <span class="o">-</span><span class="no">Properties</span> <span class="o">*</span>
+
+<span class="c1"># Example of a global catalogue (GC) connection using port 3268:</span>
+<span class="no">Get</span><span class="o">-</span><span class="no">ADUser</span> <span class="o">-</span><span class="no">LDAPFilter</span> <span class="s2">"(anr=test)"</span> <span class="o">-</span><span class="no">Server</span> <span class="n">example</span><span class="p">.</span><span class="nf">com</span><span class="p">:</span><span class="mi">3268</span>
+
+<span class="c1"># Example of a connection to a specific domain</span>
+<span class="no">Get</span><span class="o">-</span><span class="no">ADUser</span> <span class="o">-</span><span class="no">LDAPFilter</span> <span class="s2">"(anr=test)"</span> <span class="o">-</span><span class="no">Server</span> <span class="n">example</span><span class="p">.</span><span class="nf">com</span>
+
+<span class="c1"># Example of a connection to a trusted domain (i.e., abc, MMI)</span>
+<span class="no">Get</span><span class="o">-</span><span class="no">ADUser</span> <span class="o">-</span><span class="no">LDAPFilter</span> <span class="s2">"(anr=test)"</span> <span class="o">-</span><span class="no">Server</span> <span class="n">example</span><span class="p">.</span><span class="nf">com</span>
+
+
+<span class="c1"># Example of retrieving a computer object</span>
+<span class="no">Get</span><span class="o">-</span><span class="no">ADComputer</span> <span class="o">-</span><span class="no">LDAPFilter</span> <span class="s2">"(anr=server1)"</span>
+<span class="no">Get</span><span class="o">-</span><span class="no">ADComputer</span> <span class="o">-</span><span class="no">LDAPFilter</span> <span class="s2">"(anr=server2)"</span> <span class="o">-</span><span class="no">Properties</span> <span class="o">*</span>
+
+<span class="c1"># Example of connecting to a lower environment from prod</span>
+<span class="c1"># Enter your credentials in the format of domain\id, etc.</span>
+<span class="vg">$tempCreds</span> <span class="o">=</span> <span class="p">(</span><span class="no">Get</span><span class="o">-</span><span class="no">Credential</span><span class="p">)</span>
+<span class="no">Get</span><span class="o">-</span><span class="no">ADComputer</span> <span class="o">-</span><span class="no">LDAPFilter</span> <span class="s2">"(anr=servername)"</span> <span class="o">-</span><span class="no">Server</span> <span class="n">example</span><span class="p">.</span><span class="nf">com</span> <span class="o">-</span><span class="no">Credential</span> <span class="vg">$tempCreds</span></code></pre></figure>
+
+:ET
