@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-[//]: ![Linux](/assets/images/linux.jpeg)
+[//]: ![Linux]({{site.baseurl}}/assets/images/linux.jpeg)
 
 This blog was started on April 18, 2020 during the difficult time from the then ongoing Covid-19 pandemic. Schools were close and I decided to teach my kids some Linux and programming. 
 
