@@ -18,6 +18,10 @@ git clone git@github.com:sharu725/cards.git
 # cd into the jekyll theme and start the jekyll server
 cd cards
 jekyll server
+
+# If you see failure about missing paginate, you need to install it by root
+sudo gem install jekyll-paginate
+
 {% endhighlight %}
 
 
