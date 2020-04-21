@@ -8,6 +8,7 @@ categories: linux
 
 In this example, we demonstrate how to install a jekyll theme to start your website. With the consent of my children, we use the [Webjeda cards theme][Webjeda-cards-demo], you can download it from [Github][Webjeda-cards-home].
 
+# Installation 
 {% highlight ruby %}
 # Go to your home directory 
 cd
@@ -24,6 +25,10 @@ sudo gem install jekyll-paginate
 
 {% endhighlight %}
 
+# How to add an image into your markdown file
+{% highlight ruby %}
+![]({{site.baseurl}}/images/your-image.png)
+{% endhighlight %}
 
 [Webjeda-cards-demo]: https://webjeda.com/cards/
 [Webjeda-cards-home]: https://github.com/sharu725/cards
