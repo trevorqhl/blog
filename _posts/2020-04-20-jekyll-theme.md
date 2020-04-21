@@ -27,7 +27,7 @@ sudo gem install jekyll-paginate
 
 # How to add an image into your markdown file
 {% highlight ruby %}
-![]({{site.baseurl}}/images/your-image.png)
+![](\{\{site.baseurl\}\}/images/your-image.png)
 {% endhighlight %}
 
 [Webjeda-cards-demo]: https://webjeda.com/cards/
