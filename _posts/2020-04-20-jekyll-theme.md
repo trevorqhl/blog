@@ -2,7 +2,8 @@
 layout: post
 title:  "How to install a Jekyll theme"
 date:   2020-04-20 08:15:52 -0400
-categories: linux
+categories: Jekyll
+tags: Jekyll
 ---
 ![Jekyll]({{site.baseurl}}/images/jekyll.png)
 
@@ -23,11 +24,6 @@ jekyll server
 # If you see failure about missing paginate, you need to install it by root
 sudo gem install jekyll-paginate
 
-{% endhighlight %}
-
-# How to add an image into your markdown file
-{% highlight ruby %}
-![](\{\{site.baseurl\}\}/images/your-image.png)
 {% endhighlight %}
 
 [Webjeda-cards-demo]: https://webjeda.com/cards/
