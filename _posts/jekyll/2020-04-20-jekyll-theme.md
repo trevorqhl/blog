@@ -2,6 +2,7 @@
 layout: post
 title:  "How to install a Jekyll theme"
 date:   2020-04-20 08:15:52 -0400
+img: jekyll.png
 categories: Jekyll
 tags: Jekyll
 ---
