@@ -2,12 +2,12 @@
 layout: post
 title:  "How to reszie, convert images from Linux"
 date:   2020-04-21 08:30:52 -0400
-img: linux.jpeg
+img: linux.png
 categories: Linux
 tags: OS
 ---
 
-![Linux]({{site.baseurl}}/images/linux.jpeg)
+![Linux]({{site.baseurl}}/images/linux.png)
 
 1. Ensure epel is [installed][epel-url]
 

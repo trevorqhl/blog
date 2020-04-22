@@ -2,12 +2,12 @@
 layout: post
 title:  "How to install EPEL"
 date:   2020-04-21 08:30:52 -0400
-img: linux.jpeg
+img: linux.png
 categories: Linux
 tags: OS
 ---
 
-![Linux]({{site.baseurl}}/images/linux.jpeg)
+![Linux]({{site.baseurl}}/images/linux.png)
 
 Extra Packages for Enterprise Linux (or EPEL) is a Fedora Special Interest Group that creates, maintains, and manages a high quality set of additional packages for Enterprise Linux, including, but not limited to, Red Hat Enterprise Linux (RHEL), CentOS and Scientific Linux (SL), Oracle Linux (OL).
 

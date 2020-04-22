@@ -2,12 +2,12 @@
 layout: post
 title:  "How to install Netbeans on Centos"
 date:   2020-04-21 19:30:52 -0400
-img: python.png
+img: java.png
 categories: Java
 tags: Programming
 ---
 
-![Linux]({{site.baseurl}}/images/python.png)
+![Linux]({{site.baseurl}}/images/java.png)
 
 # Install Oracle java
 {% highlight ruby %}
