@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "Readme of Jekyll!"
-date:   2017-09-05 14:10:51 +0800
-categories: Other
+categories: Jekyll
 tags: Jekyll
 description: The read me page of Jekyll.
 ---

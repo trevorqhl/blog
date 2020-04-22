@@ -10,30 +10,22 @@ description: 2 sites, one help to generate ASCII texts for you, another have lot
 
 In [ASCII Generator][ascii-generator], you can generate your ASCII texts。
 
-Such like the **`XIXIA`**！
+Such like the **`Monkey says hello`**！
 {% highlight v %}
-____  ___._______  ___.___   _____   
-\   \/  /|   \   \/  /|   | /  _  \  
- \     / |   |\     / |   |/  /_\  \ 
- /     \ |   |/     \ |   /    |    \
-/___/\  \|___/___/\  \|___\____|__  /
-      \_/          \_/            \/ 
 
-------------------------------------
-___   ___  __  ___   ___  __       ___      
-\  \ /  / |  | \  \ /  / |  |     /   \     
- \  V  /  |  |  \  V  /  |  |    /  ^  \    
-  >   <   |  |   >   <   |  |   /  /_\  \   
- /  .  \  |  |  /  .  \  |  |  /  _____  \  
-/__/ \__\ |__| /__/ \__\ |__| /__/     \__\ 
+   _____                 __                                               
+  /     \   ____   ____ |  | __ ____ ___.__.   ___________  ___.__. ______
+ /  \ /  \ /  _ \ /    \|  |/ // __ <   |  |  /  ___/\__  \<   |  |/  ___/
+/    Y    (  <_> )   |  \    <\  ___/\___  |  \___ \  / __ \\___  |\___ \ 
+\____|__  /\____/|___|  /__|_ \\___  > ____| /____  >(____  / ____/____  >
+        \/            \/     \/    \/\/           \/      \/\/         \/ 
+.__           .__  .__          
+|  |__   ____ |  | |  |   ____  
+|  |  \_/ __ \|  | |  |  /  _ \ 
+|   Y  \  ___/|  |_|  |_(  <_> )
+|___|  /\___  >____/____/\____/ 
+     \/     \/                  
 
-------------------------------------
-__   _________   _______          
-\ \ / /_   _\ \ / /_   _|   /\    
- \ V /  | |  \ V /  | |    /  \   
-  > <   | |   > <   | |   / /\ \  
- / . \ _| |_ / . \ _| |_ / ____ \ 
-/_/ \_\_____/_/ \_\_____/_/    \_\   
 {% endhighlight %}
 
 <br/>
@@ -90,10 +82,10 @@ Elephant.
 {% endhighlight %}
 
 <br/>
-###  3，Welcome to lost in Xixia
-The 404 page of Xixia, is based on ASCII pics and ASCII texts!
+###  3，Welcome to lost in my blog
+The 404 page is based on ASCII pics and ASCII texts!
 
-So, warmly welcome you to lost in [Xixia][welcome-lost-in-xixia]!
+So, warmly welcome you to lost in [my blog][welcome-lost-in-my-blog]!
 
 
 <br/>
@@ -105,4 +97,4 @@ So, warmly welcome you to lost in [Xixia][welcome-lost-in-xixia]!
 
 [chris-ascii-art]: http://www.chris.com/ascii/
 [ascii-generator]: http://www.network-science.de/ascii/
-[welcome-lost-in-xixia]: http://xixia.info/welcome-lost-in-xixia
+[welcome-lost-in-my-blog]: {{site.baseurl}}/404.html

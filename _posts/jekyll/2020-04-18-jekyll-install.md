@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to create a site with Jekyll and host it on Github"
+title:  "How to build a website with Jekyll and GibHub"
 date:   2020-04-18 08:15:52 -0400
 img: jekyll.png
 categories: Jekyll
@@ -9,34 +9,42 @@ tags: Jekyll
 
 ![Jekyll]({{site.baseurl}}/images/jekyll.png)
 
-# Install ruby and use gem to install jekyll (Centos8)
+Install ruby and use gem to install jekyll (Centos8)
 {% highlight ruby %}
 # Login as root
 yum install -y ruby ruby-devel make gcc gcc-c++ zlib-devel redhat-rpm-config
 gem install jekyll bundler
 {% endhighlight %}
 
-# Use jekyll to create a site called blog
+Use jekyll to create a site called blog
 {% highlight ruby %}
 # Login as yourself
 jekyll new blog
 {% endhighlight %}
 
 
-# Run website locally to test
+Run website locally to test
 {% highlight ruby %}
 cd blog
 bundle exec jekyll serve
+
+You can only jekyll serve next time
+jekyll serve
 {% endhighlight %}
 
-# Acess the site on link below
+Acess the site on link below
 {% highlight ruby %}
 http://127.0.0.1:4000/
 {% endhighlight %}
 
-# Create a repo from [github.com]
+Create a repo from [github.com]
+{% highlight ruby %}
+# It is easy to just set the repo name to your-github-account.github.io
+# If you use a different name for repo, like blog, you would need to go
+# to Settigs of the repo and choose a branch to enable your GitGub Pages 
+{% endhighlight %}
 
-# Initialize and push blog to github repo
+Initialize and push blog to github repo
 {% highlight ruby %}
 git init
 git remote add origin https://github.com/trevorqhl/blog.git
@@ -45,10 +53,10 @@ git commit -m "first commit"
 git push -u origin master
 {% endhighlight %}
 
-# Update the site and push to github 
+Update the site and push to github 
 {% highlight ruby %}
 # Once the update is done run website locally to test
-bundle exec jekyll serve
+jekyll serve
 
 # Once you are satisfied, check git status
 git status
@@ -61,15 +69,6 @@ git commit -a -m "update blog"
 
 # push to master
 git push 
-{% endhighlight %}
-
-# Install with a new theme jekyllthemes.org
-{% highlight ruby %}
-# Usually you need to do the steps below after clone
-bundle init
-bundle add jekyll
-echo 'gem "jekyll-paginate"' >>  Gemfile
-bundle exec jekyll serve
 {% endhighlight %}
 
 

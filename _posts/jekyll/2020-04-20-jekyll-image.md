@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to insert an image into your markdown file"
+title:  "How to insert an image into markdown file"
 date:   2020-04-20 20:15:52 -0400
 img: jekyll.png
 categories: Jekyll

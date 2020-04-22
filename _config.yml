@@ -1,7 +1,7 @@
 # Jekyll configuration
 
-name: My tech blog
-description: Welcome to My tech blog！
+name: Trevor's Tech Blog
+description: Welcome to My Tech Blog！
 
 # url is currently only used only for the RSS feed in feed.xml
 url: https://github.com/zxixia/jekyll-xixia

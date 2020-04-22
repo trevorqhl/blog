@@ -1,5 +1,14 @@
-- url: "https://trevorqhl.github.io"
-  title: "My techh blog"
-
 - url: "https://github.com"
-  title: "GitHub"  
+  title: "GitHub"
+
+- url: "https://annmayli.github.io"
+  title: "Ann's Blog"  
+
+- url: "https://beaverlegend.github.io"
+  title: "Kerry's Blog"  
+
+- url: "https://monkeysayshello.github.io"
+  title: "Wesley's Blog"
+
+- url: "https://trevorqhl.github.io/blog"
+  title: "Trevor's Tech Blog"

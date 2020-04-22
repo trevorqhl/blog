@@ -27,5 +27,13 @@ sudo gem install jekyll-paginate
 
 {% endhighlight %}
 
+# If you want to create a Gemfile
+{% highlight ruby %}
+bundle init
+bundle add jekyll
+echo 'gem "jekyll-paginate"' >>  Gemfile
+bundle exec jekyll serve
+{% endhighlight %}
+
 [Webjeda-cards-demo]: https://webjeda.com/cards/
 [Webjeda-cards-home]: https://github.com/sharu725/cards
