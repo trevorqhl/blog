@@ -13,7 +13,8 @@ tags: Programming
 {% highlight ruby %}
 # You can get Java from Oracle website. If you do not want to register, use the step below
 # Login as root
-rpm -ivh https://mirror.its.sfu.ca/mirror/CentOS-Third-Party/RCG/common/x86_64/jdk-8u202-linux-x64.rpm
+wget https://mirror.its.sfu.ca/mirror/CentOS-Third-Party/RCG/common/x86_64/jdk-8u202-linux-x64.rpm
+rpm -ivh jdk-8u202-linux-x64.rpm
 {% endhighlight %}
 
 # Ensure you set default Java to Oracle Java if you have more than one Java version installed
@@ -25,7 +26,7 @@ alternatives --config java
 # Download and install Netbeans
 {% highlight ruby %}
 # Login as you
-wget -c http://download.netbeans.org/netbeans/8.2/final/bundles/netbeans-8.2-linux.sh
+wget http://download.netbeans.org/netbeans/8.2/final/bundles/netbeans-8.2-linux.sh
 chmod +x netbeans-8.2-linux.sh
 ./netbeans-8.2-linux.sh
 {% endhighlight %}
