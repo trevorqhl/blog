@@ -4,7 +4,7 @@ title:  "How to reszie, convert images from Linux"
 date:   2020-04-21 08:30:52 -0400
 img: linux.png
 categories: Linux
-tags: OS
+tags: Tool
 ---
 
 ![Linux]({{site.baseurl}}/images/linux.png)
