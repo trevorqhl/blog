@@ -44,8 +44,15 @@ Create a repo from [github.com]
 # to Settigs of the repo and choose a branch to enable your GitGub Pages 
 {% endhighlight %}
 
-Initialize and push blog to github repo
+Initialize and push blog to github repo from Linux
 {% highlight ruby %}
+
+# If you have not yet set up git enviornment
+git config --global user.name "Trevor Li"
+git config --global user.email "trevorl@example.com"
+git config -l
+
+# cd into where the jekyll site located, it is blog in this case 
 git init
 git remote add origin https://github.com/trevorqhl/blog.git
 git add .
@@ -61,7 +68,7 @@ jekyll serve
 # Once you are satisfied, check git status
 git status
 
-# If there is new files
+# If there are new files to add
 git add .
 
 # commit to local repo
