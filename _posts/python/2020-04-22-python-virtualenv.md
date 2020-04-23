@@ -27,7 +27,7 @@ source myenv/bin/activate
 # Check current python 
 which python3
 
-# Install somem packages 
+# Install some packages 
 pip3 install pysphere
 
 # Check what are installed in current virtual env 
