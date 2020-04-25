@@ -7,7 +7,7 @@ categories: Python
 tags: Pygame
 ---
 
-![Linux]({{site.baseurl}}/images/python.png)
+![Linux]({{site.baseurl}}/images/pgzero.svg)
 
 Pygame is a cross-platform set of Python modules designed for writing video games. It includes computer graphics and sound libraries designed to be used with the Python programming language.
 
