@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to Set Up A Python to monitor Red Hat Cluster Resource" 
+title:  "Create a Python script to monitor Red Hat Cluster Resource" 
 date:   2020-04-24 20:30:52 -0400
 img: python.png
 categories: Python
