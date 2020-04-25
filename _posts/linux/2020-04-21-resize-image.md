@@ -13,17 +13,21 @@ tags: Tool
 
 2. Install ImageMagick
 {% highlight ruby %}
-yum install imagemagick
+yum install ImageMagick
 {% endhighlight %}
 
 3. Resize image
 {% highlight ruby %}
 
+# Check original size
+file apache.png 
 # Convert by width
-convert example.png -resize 200 example.png
+convert apache.png -resize 820 apache.png
+# CHeck new size
+file apache.png 
 
-# Convert by height
-convert example.png -resize x100 example.png
+# Convert by height, keep original name but save into a new file
+convert apache.png -resize x100 apache2.png
 
 # ImageMagick will preserve the aspect ratio
 {% endhighlight %}
