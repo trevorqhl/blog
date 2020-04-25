@@ -44,7 +44,7 @@ Div - A section of HTML tags
 {% highlight ruby %}
 <h1>text</h1>, <h2>text</h2> - Different levels of headings
 <p>text</p> - Paragraph text
-<a href=”https://google.com”>Link Text</a> - Link
+<a href=https://google.com>Link Text</a> - Link
 <img src=”imagelink” width=”100” height=”100”> - Images
 <b>text</b> - Bold text
 <i>text</i> - Italic text
