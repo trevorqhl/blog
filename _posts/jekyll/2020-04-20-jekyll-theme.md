@@ -24,7 +24,14 @@ jekyll server
 
 # If you see failure about missing paginate, you need to install it by root
 sudo gem install jekyll-paginate
+{% endhighlight %}
 
+# If you error messsage about "could not find gem"
+{% highlight ruby %}
+# Login as yourself to do it again from scratch
+gem list
+gem install bundler
+bundle install
 {% endhighlight %}
 
 # If you want to create a Gemfile
