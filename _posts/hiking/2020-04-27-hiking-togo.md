@@ -58,5 +58,7 @@ Nashville Conservation Reserve
 https://www.alltrails.com/explore/trail/canada/ontario/nashville-conservation-reserve?ref=sidebar-static-map
 
 
+Vicki Barron Lakeside Trail
 
+https://www.alltrails.com/explore/trail/canada/ontario/vicki-barron-lakeside-trail?ref=sidebar-static-map
 
