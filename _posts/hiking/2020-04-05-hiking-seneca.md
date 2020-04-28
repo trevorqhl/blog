@@ -10,7 +10,7 @@ tags: Travel
 ![Linux]({{site.baseurl}}/images/seneca.png)
 
 
-One of my best kept hiking secrets Seneca Colleage King Campus. You are invited to experience old growth forests, rolling hills, meadows, 
+One of the best kept hiking secrets in Toronto aread is Seneca College King Campus. You are invited to experience old growth forests, rolling hills, meadows, 
 wetlands and the historic pathways of Eaton Hall. Don't forget to enjoy some quality time staying at the back of Eaton Hall Inn & Conference Centre 
 and overlooking Lake Seneca. The hike is about one hour around the Lake.
 
