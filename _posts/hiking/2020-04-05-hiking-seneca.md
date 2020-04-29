@@ -15,3 +15,4 @@ wetlands and the historic pathways of Eaton Hall. Don't forget to enjoy some qua
 and overlooking Lake Seneca. The hike is about one hour around the Lake.
 
 ![Linux]({{site.baseurl}}/images/seneca1.jpg)
+![Linux]({{site.baseurl}}/images/seneca2.jpg)
