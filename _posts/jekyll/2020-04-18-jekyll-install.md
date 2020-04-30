@@ -9,12 +9,19 @@ tags: Jekyll
 
 ![Jekyll]({{site.baseurl}}/images/jekyll.png)
 
-Install ruby and use gem to install jekyll (Centos8)
+Install packages including ruby 
 {% highlight ruby %}
 # Login as root
 yum install -y ruby ruby-devel make gcc gcc-c++ zlib-devel redhat-rpm-config
-gem install jekyll bundler
 {% endhighlight %}
+
+Install install jekyll and bundler
+{% highlight ruby %}
+# Login as yourself
+gem install jekyll bundler
+bundle install
+{% endhighlight %}
+
 
 Use jekyll to create a site called blog
 {% highlight ruby %}
