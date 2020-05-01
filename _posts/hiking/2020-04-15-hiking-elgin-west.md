@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Elgin West Greenway"
-date:   2020-04-05 13:30:52 -0400
+date:   2020-04-15 13:30:52 -0400
 img: elginwest.png
 categories: Hiking
 tags: Travel
