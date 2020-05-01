@@ -3,7 +3,7 @@ layout: post
 title:  "How to backup and restore MySQL"
 date:   2020-04-30 09:30:52 -0400
 img: linux.png
-categories: Linux
+categories: MySQL
 tags: Database
 ---
 

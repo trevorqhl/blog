@@ -7,8 +7,6 @@ tags: Travel
 ---
 
 
-Bond Lake, start at bond lake public school
-
 Jefferson Forest Bethesda Trail Head Parking Lot
 
 Maple Nature Reserve
@@ -19,14 +17,11 @@ Secord Forest Oak Ridges Trail
 
 Moraine Park, richmond hill
 
-Mill Pond Loop
-
 Rouge River Headwaters
 
 East Humber Trail 
 
 Richvale Greenway Trail 
-
 
 Clarke Tract 
 
