@@ -7,9 +7,15 @@ tags: Travel
 ---
 
 
-Jefferson Forest Bethesda Trail Head Parking Lot
+![Linux]({{site.baseurl}}/images/milnedam.png)
+![Linux]({{site.baseurl}}/images/toogood.png)
+![Linux]({{site.baseurl}}/images/germanmills.png)
+![Linux]({{site.baseurl}}/images/bethesda.png)
+![Linux]({{site.baseurl}}/images/redcardiinal.png)
+![Linux]({{site.baseurl}}/images/easthumber.png)
+![Linux]({{site.baseurl}}/images/maplenature.png)
+![Linux]({{site.baseurl}}/images/jefferson.png)
 
-Maple Nature Reserve
 
 Countryside Preserve, Uxbridge, ON
 
@@ -17,28 +23,15 @@ Secord Forest Oak Ridges Trail
 
 Moraine Park, richmond hill
 
-Rouge River Headwaters
-
-East Humber Trail 
-
-Richvale Greenway Trail 
-
 Clarke Tract 
 
 Dainty Tract
 
 https://www.alltrails.com/explore/recording/clarke-tract-and-dainty-tract-york-regional-forest--2?u=m
 
-
 Mast Trail
 
 https://www.alltrails.com/explore/trail/canada/ontario/mast-trail?ref=sidebar-static-map
-
-Unionville Valleylands Trail 
-
-Milne Dam Trail 
-
-German Mills Settlers Park Loop 
 
 Bob Hunter Memorial Park Loop (East of Markham)
 
@@ -47,7 +40,6 @@ Sugarbrush Trail  (Thornhill)
 Nashville Conservation Reserve
 
 https://www.alltrails.com/explore/trail/canada/ontario/nashville-conservation-reserve?ref=sidebar-static-map
-
 
 Vicki Barron Lakeside Trail
 
