@@ -2,12 +2,12 @@
 layout: post
 title:  "How to backup and restore MySQL"
 date:   2020-04-30 09:30:52 -0400
-img: linux.png
+img: mysql.png
 categories: MySQL
 tags: Database
 ---
 
-![Linux]({{site.baseurl}}/images/linux.png)
+![Linux]({{site.baseurl}}/images/mysql.png)
 
 ### Use mysqldump to backup
 ```
