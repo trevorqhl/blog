@@ -30,10 +30,6 @@ Dainty Tract
 https://www.alltrails.com/explore/recording/clarke-tract-and-dainty-tract-york-regional-forest--2?u=m
 
 
-Moore Park Ravine Trail Loop
-
-https://www.alltrails.com/explore/trail/canada/ontario/moore-park-ravine-trail-loop?ref=sidebar-static-map
-
 Mast Trail
 
 https://www.alltrails.com/explore/trail/canada/ontario/mast-trail?ref=sidebar-static-map
